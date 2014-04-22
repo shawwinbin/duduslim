@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Sherlock.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- font -->
+    <style name="text_white_large" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <!-- font -->
+    <style name="text_day" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:textColor">@color/dark_orange</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="text_th" parent="@android:style/TextAppearance.Medium">
+
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+
+    <style name="left_drawer_arrow">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:src">@drawable/ico_arrow_white</item>
+        <item name="android:paddingRight">20dp</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/body_normal_space"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="20dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="第"
+                style="@style/text_th"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                style="@style/text_day"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="天"
+                style="@style/text_th"
+
+                />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="成功甩掉10公斤肉"
+                    style="@style/text_th"
+                    android:layout_marginLeft="30dp"
+                    />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_wrap1"
+            android:layout_marginTop="@dimen/body_normal_space"
+            android:padding="@dimen/body_normal_space"
+            >
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp" >
+            <com.dudutech.duduslim.view.ArcsProgress
+                android:id="@+id/ap_reduce"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="减重比"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/gray"
+                    android:textSize="20sp"
+                    />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:orientation="vertical"
+                android:layout_height="120dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                >
+                <TextView
+                    android:id="@+id/tv_current_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="当前体重"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_target_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="目标体重"
+
+                    />
+                <TextView
+                    android:id="@+id/tv_first_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="初始体重"
+
+                    />
+
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_wrap1"
+            android:layout_marginTop="@dimen/body_normal_space"
+            android:padding="@dimen/body_normal_space"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最近体重记录:"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" >
+                <view
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    class="com.dudutech.duduslim.view.BarView"
+                    android:id="@+id/bar_view" />
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

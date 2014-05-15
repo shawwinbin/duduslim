@@ -1,10 +1,16 @@
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="${packageName}.${activityClass}">
+    tools:context="${packageName}.${activityClass}"
+    android:background="@drawable/background"    >
 
    <FrameLayout
        android:id="@+id/fl_content"
@@ -23,3 +29,8 @@
         android:choiceMode="singleChoice" />
 
 </android.support.v4.widget.DrawerLayout>
+    <com.dudutech.duduslim.view.DrawInsetsFrameLayout
+        android:id="@+id/drawinsetsframelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

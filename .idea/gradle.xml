@@ -8,14 +8,17 @@
         <option name="gradleHome" value="D:/Program Files/Android/gradle-1.10" />
         <option name="modules">
           <set>
-            <option value="D:\androidwork\duduslim" />
-            <option value="D:\androidwork\duduslim\SherlockNavigationDrawer" />
-            <option value="D:\androidwork\duduslim\app" />
-            <option value="D:\androidwork\duduslim\swipebacklayout" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/SherlockNavigationDrawer" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/swipebacklayout" />
+            <option value="$PROJECT_DIR$/wheellibrary" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
+    <option name="gradleVmOptions" value="-Xmx256m" />
+    <option name="offlineWork" value="true" />
   </component>
 </project>
 

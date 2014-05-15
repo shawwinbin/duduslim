@@ -2,7 +2,7 @@
 <resources>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
-    <color name="green">#008000</color>
+    <color name="green">#12b042</color>
     <color name="gray">#999999</color>
     <color name="blue">#00BFFF</color>
     <color name="pink">#ff5757</color>
@@ -11,12 +11,32 @@
     <color name="transparent_black_80">#cb000000</color>
     <color name="text_blue">#3399cc</color>
 
-    <color name="tab_text_selected">#008000</color>
-    <color name="tab_text_unselected">#008000</color>
+    <color name="tab_text_selected">#12b042</color>
+    <color name="tab_text_unselected">#12b042</color>
 
     <color name="orange">#f39c11</color>
 
     <color name="dark_orange">#ff1300</color>
 
 
+
+    <color name="accent_blue">#33B5E5</color>
+    <color name="accent_blue_secondary">#8833B5E5</color>
+    <color name="accent_orange">#FF8800</color>
+    <color name="accent_orange_secondary">#88FF8800</color>
+    <color name="accent_yellow">#FFBB33</color>
+    <color name="accent_yellow_secondary">#88FFBB33</color>
+
+    <color name="activity_bg">#ffffff</color>
+
+    <color name="list_item_title">#ff111111</color>
+    <color name="list_item_title_secondary">#ff848484</color>
+
+    <!-- general colors for drawer -->
+    <color name="list_divider">#C3C3C3</color>
+    <color name="list_background">#F2F2F2</color>
+    <!-- primary colors for drawer -->
+    <color name="list_background_normal">#FCFCFC</color>
+    <!-- secondary colors for drawer -->
+    <color name="list_background_secondary_normal">#F2F2F2</color>
 </resources>

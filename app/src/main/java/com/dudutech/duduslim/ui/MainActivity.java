@@ -1,24 +1,25 @@
 package com.dudutech.duduslim.ui;
 
 
-import android.app.Activity;
-import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.Rect;
 import android.os.Bundle;
-import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.KeyEvent;
+import android.widget.FrameLayout;
 import android.widget.Toast;
-
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.dudutech.duduslim.R;
 import com.dudutech.duduslim.ui.fragment.BaseFragment;
 import com.dudutech.duduslim.ui.fragment.DrawerFragment;
+import com.dudutech.duduslim.utils.UIUtils;
+import com.dudutech.duduslim.view.DrawInsetsFrameLayout;
 import com.sherlock.navigationdrawer.compat.SherlockActionBarDrawerToggle;
 
 import butterknife.ButterKnife;
@@ -36,12 +37,25 @@ public class MainActivity extends SherlockFragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+      //  getWindow().getDecorView().setBackgroundDrawable(getResources().getDrawable(R.drawable.toolbar_bg));
+        getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.ab_solid_custom));
+       // getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        //init the activity and make it beautiful :D
+        UIUtils.getInstance().initActivity(this);
         ButterKnife.inject(this);
         initActionBar();
         mDrawerToggle = new SherlockActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, R.string.drawer_open, R.string.drawer_close);
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
+        //init ui margins to make our activity beautiful!
+        DrawInsetsFrameLayout drawInsetsFrameLayout = (DrawInsetsFrameLayout) findViewById(R.id.drawinsetsframelayout);
+        drawInsetsFrameLayout.setOnInsetsCallback(new DrawInsetsFrameLayout.OnInsetsCallback() {
+            @Override
+            public void onInsetsChanged(Rect insets) {
+                   mDrawerLayout.setLayoutParams(UIUtils.getInstance().handleTranslucentDecorMargins(((FrameLayout.LayoutParams) mDrawerLayout.getLayoutParams()), insets));
+            }
+        });
         replaceFragment(R.id.left_drawer,new DrawerFragment());
 
     }
@@ -68,22 +82,25 @@ public class MainActivity extends SherlockFragmentActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (mDrawerToggle.onOptionsItemSelected( item)) {
+        if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-//        switch (item.getItemId()) {
-//            case R.id.action_refresh:
-//                mContentFragment.loadFirstAndScrollToTop();
-//                return true;
-//            case R.id.action_settings:
-//                startActivity(new Intent(this, PreferenceActivity.class));
-//                return true;
-//            default:
-//                return super.onOptionsItemSelected(item);
-//        }
-        return super.onOptionsItemSelected(item);
-    }
+        switch (item.getItemId()) {
+            case R.id.menu_add:
 
+//                Intent intent = new Intent(this, AddWeightActivity.class);
+//
+//                startActivity(intent);
+
+                AddWeightDialog  dialog=new AddWeightDialog(MainActivity.this,R.style.MyDialog);
+                dialog.show();
+
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+
+    }
 
     private long exitTime = 0;
 
@@ -123,5 +140,15 @@ public class MainActivity extends SherlockFragmentActivity {
     protected void replaceFragment(int viewId, BaseFragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(viewId, fragment).commit();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getSupportMenuInflater().inflate(R.menu.activity_main, menu);
+
+
+        return true;
+
     }
 }

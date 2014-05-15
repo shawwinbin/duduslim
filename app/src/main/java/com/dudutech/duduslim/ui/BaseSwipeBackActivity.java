@@ -2,13 +2,11 @@ package com.dudutech.duduslim.ui;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.ActionBar;
-
+import com.dudutech.duduslim.R;
 
 import me.imid.swipebacklayout.lib.SwipeBackLayout;
 import me.imid.swipebacklayout.lib.app.SwipeBackSherlockActivity;
@@ -28,7 +26,7 @@ import me.imid.swipebacklayout.lib.app.SwipeBackSherlockActivity;
  */
 @SuppressLint("NewApi")
 public class BaseSwipeBackActivity extends SwipeBackSherlockActivity{
-	
+
 	//滑动返回
 	private SwipeBackLayout mSwipeBackLayout;
 	private ImageButton btn_back;
@@ -63,7 +61,7 @@ public class BaseSwipeBackActivity extends SwipeBackSherlockActivity{
 		        //init actionbar
 		       getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
 
-//				getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.toolbar_bg));
+				getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.toolbar_bg));
 
 
 //                getSupportActionBar().setCustomView(R.layout.abs_layout);

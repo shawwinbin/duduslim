@@ -14,6 +14,8 @@ public interface WeightRecordService {
 
     public List<WeightRecord> getAllWeightRecord();
 
+    public WeightRecord   getRecentRecord();
+
 
 
 

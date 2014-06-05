@@ -104,14 +104,21 @@ public class AddWeightDialog extends Dialog {
     public void initWheel()
     {
 
+        WeightRecord weightRecord=mService.getRecentRecord();
+        float rencentWeight=(float)55.5;
+        if (weightRecord!=null)
+            rencentWeight=mService.getRecentRecord().getWeight();
+        int rencentWeightInt=(int)rencentWeight;
+        float  rencentWeightFloat=rencentWeight-rencentWeightInt;
+
         wheel_weight1.setViewAdapter(new NumericWheelAdapter(getContext(), 0, 100));
-        wheel_weight1.setCurrentItem((int) (Math.random() * 100));
+        wheel_weight1.setCurrentItem(rencentWeightInt);
         wheel_weight1.setCyclic(true);
         wheel_weight1.setInterpolator(new AnticipateOvershootInterpolator());
         wheel_weight1.setVisibleItems(3);
 
         wheel_weight2.setViewAdapter(new NumericWheelAdapter(getContext(), 0, 10));
-        wheel_weight2.setCurrentItem((int) (Math.random() * 10));
+        wheel_weight2.setCurrentItem((int) (rencentWeightFloat* 10));
         wheel_weight2.setCyclic(true);
         wheel_weight2.setInterpolator(new AnticipateOvershootInterpolator());
         wheel_weight2.setVisibleItems(3);

@@ -59,4 +59,19 @@ public class WeightRecordServiceImp implements   WeightRecordService {
             return null;
         }
     }
+
+    @Override
+    public WeightRecord getRecentRecord() {
+
+        try {
+            return  dbHelper.getWeightRecordDao().queryBuilder().orderBy("date",false).queryForFirst();
+//            return dbHelper.getWeightRecordDao().queryForAll();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return new WeightRecord();
+        }
+
+
+    }
 }

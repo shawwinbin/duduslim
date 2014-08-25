@@ -1,3 +1,4 @@
-include ':app', ':wheellibrary'
-include ':swipebackLayout'
-include ':SherlockNavigationDrawer'
+include ':app'
+include ':libraries:wheellibrary'
+include ':libraries:swipebackLayout'
+include ':libraries:SherlockNavigationDrawer'

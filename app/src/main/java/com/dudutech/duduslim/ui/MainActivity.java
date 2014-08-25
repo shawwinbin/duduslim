@@ -38,9 +38,10 @@ public class MainActivity extends SherlockFragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
       //  getWindow().getDecorView().setBackgroundDrawable(getResources().getDrawable(R.drawable.toolbar_bg));
-
+        getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.ab_solid_custom));
        // getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         //init the activity and make it beautiful :D
+        UIUtils.getInstance().initActivity(this);
         ButterKnife.inject(this);
         initActionBar();
         mDrawerToggle = new SherlockActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, R.string.drawer_open, R.string.drawer_close);

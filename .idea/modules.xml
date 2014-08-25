@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/libraries/SherlockNavigationDrawer/SherlockNavigationDrawer.iml" filepath="$PROJECT_DIR$/libraries/SherlockNavigationDrawer/SherlockNavigationDrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SherlockNavigationDrawer/SherlockNavigationDrawer.iml" filepath="$PROJECT_DIR$/SherlockNavigationDrawer/SherlockNavigationDrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/duduslim.iml" filepath="$PROJECT_DIR$/duduslim.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/swipebacklayout/swipebackLayout.iml" filepath="$PROJECT_DIR$/libraries/swipebacklayout/swipebackLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/wheellibrary/wheellibrary.iml" filepath="$PROJECT_DIR$/libraries/wheellibrary/wheellibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipebacklayout/swipebackLayout.iml" filepath="$PROJECT_DIR$/swipebacklayout/swipebackLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wheellibrary/wheellibrary.iml" filepath="$PROJECT_DIR$/wheellibrary/wheellibrary.iml" />
     </modules>
   </component>
 </project>

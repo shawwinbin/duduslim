@@ -9,16 +9,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/SherlockNavigationDrawer" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/libraries" />
-            <option value="$PROJECT_DIR$/libraries/SherlockNavigationDrawer" />
-            <option value="$PROJECT_DIR$/libraries/swipebacklayout" />
-            <option value="$PROJECT_DIR$/libraries/wheellibrary" />
+            <option value="$PROJECT_DIR$/swipebacklayout" />
+            <option value="$PROJECT_DIR$/wheellibrary" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
     <option name="gradleVmOptions" value="-Xmx256m" />
+    <option name="offlineWork" value="true" />
   </component>
 </project>
 

@@ -2,7 +2,7 @@ apply plugin: 'android'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.1.0"
+    buildToolsVersion "19.0.3"
 
     defaultConfig {
         minSdkVersion 9
@@ -24,9 +24,9 @@ dependencies {
     compile 'com.j256.ormlite:ormlite-android:4.41@jar'
     compile 'com.j256.ormlite:ormlite-core:4.41@jar'
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':libraries:swipebackLayout')
-    compile project(':libraries:SherlockNavigationDrawer')
-    compile project(':libraries:wheellibrary')
+    compile project(':swipebackLayout')
+    compile project(':SherlockNavigationDrawer')
+    compile project(':wheellibrary')
 
 
 }

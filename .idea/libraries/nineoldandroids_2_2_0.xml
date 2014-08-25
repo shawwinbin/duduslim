@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="nineoldandroids-2.2.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/exploded-aar/duduslim/wheellibrary/unspecified/libs/nineoldandroids-2.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/wheellibrary/libs/nineoldandroids-2.2.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -13,7 +13,7 @@ import me.imid.swipebacklayout.lib.app.SwipeBackSherlockActivity;
 
 /**    
  *     
- * 项目名称：gift    
+ * 项目名称：duduslim
  * 类名称：BaseSwipeBackActivity    
  * 类描述：    活动返回ACTIVity基类
  * 创建人：shaw  

@@ -11,13 +11,16 @@
     <color name="transparent_black_80">#cb000000</color>
     <color name="text_blue">#3399cc</color>
 
-    <color name="tab_text_selected">#12b042</color>
+    <color name="tab_text_selected">#12b012</color>
     <color name="tab_text_unselected">#12b042</color>
 
     <color name="orange">#f39c11</color>
 
     <color name="dark_orange">#ff1300</color>
 
+
+    <color name="actionbar_bg">#FF0099CC</color>
+    <color name="statusbar_bg">#FF006080</color>
 
 
     <color name="accent_blue">#33B5E5</color>

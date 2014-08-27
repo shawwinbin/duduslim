@@ -11,6 +11,7 @@
     <style name="MainActivityTheme" parent="Theme.Sherlock.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
         <item name="actionBarStyle">@style/Widget.ActionBar</item>
+
         <item name="android:windowIsTranslucent">false</item>
         <!-- 设置activity切换动画 -->
         <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
@@ -32,6 +33,7 @@
 
 
     <style name="Widget.ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_bg</item>
     </style>
 
     <style name="Widget.Light" />

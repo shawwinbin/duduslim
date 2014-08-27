@@ -1,13 +1,17 @@
 package com.dudutech.duduslim.ui;
 
 
+import android.annotation.TargetApi;
 import android.content.res.Configuration;
 import android.graphics.Rect;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.KeyEvent;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
@@ -18,7 +22,7 @@ import com.actionbarsherlock.view.MenuItem;
 import com.dudutech.duduslim.R;
 import com.dudutech.duduslim.ui.fragment.BaseFragment;
 import com.dudutech.duduslim.ui.fragment.DrawerFragment;
-import com.dudutech.duduslim.utils.UIUtils;
+import com.dudutech.duduslim.utils.SystemBarTintManager;
 import com.dudutech.duduslim.view.DrawInsetsFrameLayout;
 import com.sherlock.navigationdrawer.compat.SherlockActionBarDrawerToggle;
 
@@ -47,14 +51,22 @@ public class MainActivity extends SherlockFragmentActivity {
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            setTranslucentStatus(true);
+        }
+
+        SystemBarTintManager tintManager = new SystemBarTintManager(this);
+        tintManager.setStatusBarTintEnabled(true);
+        tintManager.setStatusBarTintResource(R.color.statusbar_bg);
+
         //init ui margins to make our activity beautiful!
         DrawInsetsFrameLayout drawInsetsFrameLayout = (DrawInsetsFrameLayout) findViewById(R.id.drawinsetsframelayout);
-        drawInsetsFrameLayout.setOnInsetsCallback(new DrawInsetsFrameLayout.OnInsetsCallback() {
-            @Override
-            public void onInsetsChanged(Rect insets) {
-                   mDrawerLayout.setLayoutParams(UIUtils.getInstance().handleTranslucentDecorMargins(((FrameLayout.LayoutParams) mDrawerLayout.getLayoutParams()), insets));
-            }
-        });
+//        drawInsetsFrameLayout.setOnInsetsCallback(new DrawInsetsFrameLayout.OnInsetsCallback() {
+//            @Override
+//            public void onInsetsChanged(Rect insets) {
+//                   mDrawerLayout.setLayoutParams(UIUtils.getInstance().handleTranslucentDecorMargins(((FrameLayout.LayoutParams) mDrawerLayout.getLayoutParams()), insets));
+//            }
+//        });
         replaceFragment(R.id.left_drawer,new DrawerFragment());
 
     }
@@ -149,5 +161,18 @@ public class MainActivity extends SherlockFragmentActivity {
 
         return true;
 
+    }
+
+    @TargetApi(19)
+    private void setTranslucentStatus(boolean on) {
+        Window win = getWindow();
+        WindowManager.LayoutParams winParams = win.getAttributes();
+        final int bits = WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS;
+        if (on) {
+            winParams.flags |= bits;
+        } else {
+            winParams.flags &= ~bits;
+        }
+        win.setAttributes(winParams);
     }
 }

@@ -23,6 +23,7 @@ import com.dudutech.duduslim.R;
 import com.dudutech.duduslim.ui.fragment.BaseFragment;
 import com.dudutech.duduslim.ui.fragment.DrawerFragment;
 import com.dudutech.duduslim.utils.SystemBarTintManager;
+import com.dudutech.duduslim.utils.UIUtils;
 import com.dudutech.duduslim.view.DrawInsetsFrameLayout;
 import com.sherlock.navigationdrawer.compat.SherlockActionBarDrawerToggle;
 
@@ -41,16 +42,13 @@ public class MainActivity extends SherlockFragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-      //  getWindow().getDecorView().setBackgroundDrawable(getResources().getDrawable(R.drawable.toolbar_bg));
-
-       // getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        //init the activity and make it beautiful :D
         ButterKnife.inject(this);
         initActionBar();
+
         mDrawerToggle = new SherlockActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, R.string.drawer_open, R.string.drawer_close);
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         mDrawerLayout.setDrawerListener(mDrawerToggle);
-
+        mDrawerToggle.syncState();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             setTranslucentStatus(true);
         }
@@ -58,15 +56,13 @@ public class MainActivity extends SherlockFragmentActivity {
         SystemBarTintManager tintManager = new SystemBarTintManager(this);
         tintManager.setStatusBarTintEnabled(true);
         tintManager.setStatusBarTintResource(R.color.statusbar_bg);
-
-        //init ui margins to make our activity beautiful!
         DrawInsetsFrameLayout drawInsetsFrameLayout = (DrawInsetsFrameLayout) findViewById(R.id.drawinsetsframelayout);
-//        drawInsetsFrameLayout.setOnInsetsCallback(new DrawInsetsFrameLayout.OnInsetsCallback() {
-//            @Override
-//            public void onInsetsChanged(Rect insets) {
-//                   mDrawerLayout.setLayoutParams(UIUtils.getInstance().handleTranslucentDecorMargins(((FrameLayout.LayoutParams) mDrawerLayout.getLayoutParams()), insets));
-//            }
-//        });
+        drawInsetsFrameLayout.setOnInsetsCallback(new DrawInsetsFrameLayout.OnInsetsCallback() {
+            @Override
+            public void onInsetsChanged(Rect insets) {
+                mDrawerLayout.setLayoutParams(UIUtils.getInstance().handleTranslucentDecorMargins(((FrameLayout.LayoutParams) mDrawerLayout.getLayoutParams()), insets));
+            }
+        });
         replaceFragment(R.id.left_drawer,new DrawerFragment());
 
     }

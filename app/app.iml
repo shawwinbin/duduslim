@@ -93,10 +93,8 @@
     <orderEntry type="library" exported="" name="support-v4-19.0.1" level="project" />
     <orderEntry type="library" exported="" name="volley" level="project" />
     <orderEntry type="library" exported="" name="universal-image-loader-1.9.1" level="project" />
-    <orderEntry type="library" exported="" name="actionbarsherlock-4.4.0" level="project" />
     <orderEntry type="module" module-name="wheellibrary" exported="" />
     <orderEntry type="module" module-name="swipebackLayout" exported="" />
-    <orderEntry type="module" module-name="SherlockNavigationDrawer" exported="" />
   </component>
 </module>
 

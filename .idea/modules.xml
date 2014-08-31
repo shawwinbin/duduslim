@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/libraries/SherlockNavigationDrawer/SherlockNavigationDrawer.iml" filepath="$PROJECT_DIR$/libraries/SherlockNavigationDrawer/SherlockNavigationDrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/duduslim.iml" filepath="$PROJECT_DIR$/duduslim.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/swipebacklayout/swipebackLayout.iml" filepath="$PROJECT_DIR$/libraries/swipebacklayout/swipebackLayout.iml" />

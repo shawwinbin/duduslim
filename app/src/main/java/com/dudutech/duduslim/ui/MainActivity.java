@@ -2,39 +2,41 @@ package com.dudutech.duduslim.ui;
 
 
 import android.annotation.TargetApi;
+import android.app.ActionBar;
+import android.app.Activity;
+import android.app.Fragment;
 import android.content.res.Configuration;
 import android.graphics.Rect;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.Toast;
-
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuItem;
 import com.dudutech.duduslim.R;
 import com.dudutech.duduslim.ui.fragment.BaseFragment;
 import com.dudutech.duduslim.ui.fragment.DrawerFragment;
+import com.dudutech.duduslim.utils.BlurActionBarDrawerToggle;
 import com.dudutech.duduslim.utils.SystemBarTintManager;
 import com.dudutech.duduslim.utils.UIUtils;
 import com.dudutech.duduslim.view.DrawInsetsFrameLayout;
-import com.sherlock.navigationdrawer.compat.SherlockActionBarDrawerToggle;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
-public class MainActivity extends SherlockFragmentActivity {
+public class MainActivity extends FragmentActivity {
 
 
 
-    private SherlockActionBarDrawerToggle mDrawerToggle;
+    private ActionBarDrawerToggle mDrawerToggle;
     @InjectView(R.id.drawer_layout)
    public DrawerLayout mDrawerLayout;
 
@@ -45,7 +47,7 @@ public class MainActivity extends SherlockFragmentActivity {
         ButterKnife.inject(this);
         initActionBar();
 
-        mDrawerToggle = new SherlockActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, R.string.drawer_open, R.string.drawer_close);
+        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.drawable.ic_drawer, R.string.drawer_open, R.string.drawer_close);
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         mDrawerToggle.syncState();
@@ -69,7 +71,7 @@ public class MainActivity extends SherlockFragmentActivity {
 
     private void initActionBar() {
 
-        ActionBar actionBar = getSupportActionBar();
+        ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setHomeButtonEnabled(true);
         actionBar.setDisplayShowTitleEnabled(true);
@@ -152,7 +154,7 @@ public class MainActivity extends SherlockFragmentActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
-        getSupportMenuInflater().inflate(R.menu.activity_main, menu);
+        getMenuInflater().inflate(R.menu.activity_main, menu);
 
 
         return true;

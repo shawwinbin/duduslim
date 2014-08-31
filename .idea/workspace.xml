@@ -42,22 +42,374 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def677fe-dc98-4f17-867b-7271e6109fe5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/UIUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/Blur.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/BlurActionBarDrawerToggle.java" />
       <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\actionbarsherlock_4_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\butterknife_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\gson_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\listviewanimations_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\nineoldandroids_2_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\ormlite_android_4_41.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\ormlite_core_4_41.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\photoviewlibrary.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\support_v4_19_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\support_v4_19_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\universal_image_loader_1_9_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\androidwork\duduslim\.idea\libraries\volley.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\SherlockNavigationDrawer.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\R.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\color\abs__primary_text_disable_only_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\color\abs__primary_text_disable_only_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\color\abs__primary_text_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\color\abs__primary_text_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_bottom_solid_inverse_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_solid_shadow_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__btn_cab_done_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__btn_cab_done_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__btn_cab_done_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__btn_cab_done_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__btn_cab_done_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__btn_cab_done_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__list_activated_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__progress_bg_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__progress_bg_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__progress_primary_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__progress_primary_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__progress_secondary_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__progress_secondary_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_48_inner_holo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_48_outer_holo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-hdpi\abs__toast_frame.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_bottom_solid_inverse_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_solid_shadow_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__btn_cab_done_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__btn_cab_done_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__btn_cab_done_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__btn_cab_done_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__btn_cab_done_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__btn_cab_done_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__list_activated_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__progress_bg_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__progress_bg_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__progress_primary_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__progress_primary_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__progress_secondary_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__progress_secondary_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_48_inner_holo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_48_outer_holo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-mdpi\abs__toast_frame.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-v11\abs__progress_medium_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_bottom_solid_inverse_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_share_pack_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_share_pack_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_solid_shadow_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__btn_cab_done_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__btn_cab_done_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__btn_cab_done_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__btn_cab_done_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__btn_cab_done_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__btn_cab_done_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__list_activated_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__list_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__list_longpressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__list_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__list_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__list_selector_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__list_selector_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__progress_bg_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__progress_bg_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__progress_primary_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__progress_primary_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__progress_secondary_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__progress_secondary_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_48_inner_holo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_48_outer_holo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable-xhdpi\abs__toast_frame.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__activated_background_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__activated_background_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__btn_cab_done_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__btn_cab_done_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__ic_clear.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__ic_clear_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__ic_menu_moreoverflow_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__ic_menu_moreoverflow_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__item_background_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__item_background_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__list_selector_background_transition_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__list_selector_background_transition_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__list_selector_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__list_selector_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__progress_horizontal_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__progress_horizontal_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__progress_medium_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__search_dropdown_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__search_dropdown_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__spinner_ab_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__spinner_ab_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__tab_indicator_ab_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__textfield_searchview_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__textfield_searchview_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__textfield_searchview_right_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\drawable\abs__textfield_searchview_right_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout-large\abs__action_mode_close_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout-v14\sherlock_spinner_dropdown_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout-v14\sherlock_spinner_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout-xlarge\abs__screen_action_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout-xlarge\abs__screen_action_bar_overlay.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__action_bar_home.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__action_bar_tab.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__action_bar_tab_bar_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__action_bar_title_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__action_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__action_menu_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__action_mode_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__action_mode_close_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__activity_chooser_view_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__list_menu_item_checkbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__list_menu_item_icon.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__list_menu_item_radio.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__popup_menu_item_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__screen_action_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__screen_action_bar_overlay.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__screen_simple.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__screen_simple_overlay_action_mode.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__search_dropdown_item_icons_2line.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__search_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\abs__simple_dropdown_hint.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\sherlock_spinner_dropdown_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\layout\sherlock_spinner_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-land\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-large-hdpi-1024x600\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-large-land-hdpi-1024x600\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-large-land-mdpi-1024x600\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-large-mdpi-1024x600\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-sw600dp\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-v11\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-v14\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-w360dp\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-w480dp\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-w500dp\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-w600dp\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values-xlarge\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\res\values\values.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\source\buildConfig\debug\com\sherlock\navigationdrawer\BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\source\buildConfig\release\com\sherlock\navigationdrawer\BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\source\r\debug\com\sherlock\navigationdrawer\R.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\build\source\r\release\com\sherlock\navigationdrawer\R.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\proguard-project.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\res\drawable-hdpi\drawer_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\res\drawable-hdpi\ic_drawer_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\res\drawable-hdpi\ic_drawer_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\res\drawable-mdpi\drawer_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\res\drawable-mdpi\ic_drawer_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\res\drawable-mdpi\ic_drawer_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\res\drawable-xhdpi\drawer_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\res\drawable-xhdpi\ic_drawer_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\res\drawable-xhdpi\ic_drawer_light.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\src\com\sherlock\navigationdrawer\compat\SherlockActionBarDrawerToggle.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\src\com\sherlock\navigationdrawer\compat\SherlockActionBarDrawerToggleCompat.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\SherlockNavigationDrawer\src\com\sherlock\navigationdrawer\compat\SherlockActionBarDrawerToggleHoneycomb.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\androidwork\duduslim\libraries\swipebacklayout\src\me\imid\swipebacklayout\lib\app\SwipeBackSherlockActivity.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/swipebacklayout/build.gradle" afterPath="$PROJECT_DIR$/libraries/swipebacklayout/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/swipebacklayout/swipebackLayout.iml" afterPath="$PROJECT_DIR$/libraries/swipebacklayout/swipebackLayout.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -125,101 +477,104 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="2907">
-              <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
-              <folding />
+            <state vertical-scroll-proportion="-8.344828" vertical-offset="727" max-vertical-offset="3458">
+              <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1663#1683#0" expanded="true" />
+                <element signature="e#1685#1706#0" expanded="true" />
+                <element signature="e#2368#2685#0" expanded="true" />
+                <element signature="e#2674#2675#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/UIUtils.java">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1926" max-vertical-offset="2964">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="684">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SystemBarTintManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/SystemBarTintManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1907" max-vertical-offset="9880">
-              <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseSwipeBackActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/BaseSwipeBackActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="2508">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawerFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/fragment/DrawerFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="2850">
-              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_drawer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_drawer.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="51.464287" vertical-offset="1669" max-vertical-offset="3059">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="703">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="themes.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="themes.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/themes.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1178">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state vertical-scroll-proportion="-0.15405406" vertical-offset="228" max-vertical-offset="1026">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/swipebacklayout/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="760">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewDragHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/swipebacklayout/src/me/imid/swipebacklayout/lib/ViewDragHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1295" max-vertical-offset="28424">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwipeBackActivityHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraries/swipebacklayout/src/me/imid/swipebacklayout/lib/app/SwipeBackActivityHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1150" max-vertical-offset="2109">
+              <caret line="80" column="87" selection-start-line="80" selection-start-column="87" selection-end-line="80" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/values/styles.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2223" max-vertical-offset="48260">
-              <caret line="120" column="55" selection-start-line="120" selection-start-column="55" selection-end-line="120" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1235">
+              <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6029851" vertical-offset="216" max-vertical-offset="950">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state vertical-scroll-proportion="-2.28" vertical-offset="0" max-vertical-offset="171">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlurActionBarDrawerToggle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/BlurActionBarDrawerToggle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1314" max-vertical-offset="3876">
+              <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -267,10 +622,6 @@
               <ExternalProjectPojo>
                 <option name="name" value=":libraries:swipebackLayout" />
                 <option name="path" value="$PROJECT_DIR$/libraries/swipebacklayout" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":libraries:SherlockNavigationDrawer" />
-                <option name="path" value="$PROJECT_DIR$/libraries/SherlockNavigationDrawer" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="duduslim" />
@@ -1051,16 +1402,6 @@
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.actionbarsherlock:actionbarsherlock:4.4.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComActionbarsherlockActionbarsherlock440Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.sherlock:SherlockNavigationDrawer:1.0-SNAPSHOT" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComSherlockSherlockNavigationDrawer10SNAPSHOTLibrary" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
@@ -1808,10 +2149,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/libraries/swipebacklayout" />
-                <option name="name" value="mergeDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/libraries/swipebacklayout" />
                 <option name="name" value="mergeDebugTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1825,10 +2162,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/libraries/swipebacklayout" />
                 <option name="name" value="mergeReleaseProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/libraries/swipebacklayout" />
-                <option name="name" value="mergeReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/libraries/swipebacklayout" />
@@ -1893,11 +2226,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/libraries/swipebacklayout" />
                 <option name="name" value="preReleaseBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.actionbarsherlock:actionbarsherlock:4.4.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/libraries/swipebacklayout" />
-                <option name="name" value="prepareComActionbarsherlockActionbarsherlock440Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/libraries/swipebacklayout" />
@@ -2365,7 +2693,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8453627763585" />
+        <entry key="$PROJECT_DIR$" value="7046128748017" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3595,24 +3923,27 @@
         <option value="$PROJECT_DIR$/wheellibrary/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/wheellibrary/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/libraries/SherlockNavigationDrawer/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/BaseSwipeBackActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/app/MyApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/SystemBarTintManager.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/Blur.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/libraries/swipebacklayout/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1378" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -3687,6 +4018,116 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swipebacklayout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swipebacklayout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swipebacklayout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swipebacklayout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="duduslim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -3706,164 +4147,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="duduslim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3897,10 +4180,10 @@
       <recent name="com.dudutech.duduslim.ui.fragment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\androidwork\duduslim\libraries\wheellibrary\libs" />
       <recent name="D:\androidwork\duduslim\app\src\main\res\drawable-xhdpi" />
-      <recent name="D:\androidwork\duduslim\app\src\main\res\values" />
       <recent name="D:\androidwork\duduslim\app\src\main\java\com\dudutech\duduslim\utils" />
+      <recent name="D:\androidwork\duduslim\libraries\wheellibrary\libs" />
+      <recent name="D:\androidwork\duduslim\app\src\main\res\values" />
       <recent name="D:\androidwork\duduslim\app\src\main\res\drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -4125,13 +4408,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22785768" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22785768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -4140,18 +4423,18 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31921825" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37777779" sideWeight="0.49924126" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31794873" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37777779" sideWeight="0.49924126" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26479515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32681867" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26399395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32649574" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -4213,30 +4496,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/text_color_white_green_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/time_picker_custom_day.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4059829" vertical-offset="228" max-vertical-offset="741">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/text_color_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3625954" vertical-offset="0" max-vertical-offset="285">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_white_seclector.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34732825" vertical-offset="4" max-vertical-offset="266">
@@ -4389,40 +4648,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13263525" vertical-offset="0" max-vertical-offset="573">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/SherlockNavigationDrawer/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2984293" vertical-offset="342" max-vertical-offset="1121">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/swipebacklayout/src/me/imid/swipebacklayout/lib/app/SwipeBackActivityHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33152175" vertical-offset="1151" max-vertical-offset="2109">
-          <caret line="80" column="87" selection-start-line="80" selection-start-column="87" selection-end-line="80" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/swipebacklayout/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5026178" vertical-offset="206" max-vertical-offset="779">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -4484,22 +4713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="722">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1235">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2223" max-vertical-offset="48260">
@@ -4516,42 +4729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/SherlockNavigationDrawer/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3402985" vertical-offset="0" max-vertical-offset="335">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/themes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1178">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="703">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/fragment/DrawerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="2850">
           <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/SherlockNavigationDrawer/src/com/sherlock/navigationdrawer/compat/SherlockActionBarDrawerToggle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3313433" vertical-offset="459" max-vertical-offset="8132">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -4594,18 +4775,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="2907">
-          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="950">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/Blur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6029851" vertical-offset="216" max-vertical-offset="950">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="4522">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/utils/BlurActionBarDrawerToggle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1314" max-vertical-offset="3876">
+          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/values/themes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3313433" vertical-offset="29016" max-vertical-offset="35530">
+          <caret line="1533" column="17" selection-start-line="1533" selection-start-column="17" selection-end-line="1533" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.28" vertical-offset="0" max-vertical-offset="171">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1235">
+          <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dudutech/duduslim/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.344828" vertical-offset="727" max-vertical-offset="3458">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1663#1683#0" expanded="true" />
+            <element signature="e#1685#1706#0" expanded="true" />
+            <element signature="e#2368#2685#0" expanded="true" />
+            <element signature="e#2674#2675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/swipebacklayout/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="760">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/swipebacklayout/src/me/imid/swipebacklayout/lib/ViewDragHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1295" max-vertical-offset="28424">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/swipebacklayout/src/me/imid/swipebacklayout/lib/app/SwipeBackActivityHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1150" max-vertical-offset="2109">
+          <caret line="80" column="87" selection-start-line="80" selection-start-column="87" selection-end-line="80" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="684">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/themes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15405406" vertical-offset="228" max-vertical-offset="1026">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding />
         </state>
       </provider>

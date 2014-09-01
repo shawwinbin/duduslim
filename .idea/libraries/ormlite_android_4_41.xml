@@ -4,8 +4,6 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.41/d5ad2ad62e4d84198c08b012afdfaf75623fed8e/ormlite-android-4.41.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.41/9ef5c8a312bf57eba622ef8aaed0ab093c1f56f6/ormlite-android-4.41-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

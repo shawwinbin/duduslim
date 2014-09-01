@@ -20,12 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.dudutech.duduslim.ui.AddWeightActivity"
-            android:label="@string/title_activity_add_weight"
 
-            >
-        </activity>
     </application>
 
 </manifest>

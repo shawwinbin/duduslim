@@ -5,11 +5,11 @@ import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.actionbarsherlock.app.ActionBar;
 import com.dudutech.duduslim.R;
 
 import me.imid.swipebacklayout.lib.SwipeBackLayout;
-import me.imid.swipebacklayout.lib.app.SwipeBackSherlockActivity;
+import me.imid.swipebacklayout.lib.app.SwipeBackActivity;
+
 
 /**    
  *     
@@ -25,7 +25,7 @@ import me.imid.swipebacklayout.lib.app.SwipeBackSherlockActivity;
  *     
  */
 @SuppressLint("NewApi")
-public class BaseSwipeBackActivity extends SwipeBackSherlockActivity{
+public class BaseSwipeBackActivity extends SwipeBackActivity {
 
 	//滑动返回
 	private SwipeBackLayout mSwipeBackLayout;
@@ -59,9 +59,9 @@ public class BaseSwipeBackActivity extends SwipeBackSherlockActivity{
 	            }
 	        });
 		        //init actionbar
-		       getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-
-				getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.toolbar_bg));
+//		       getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+//
+//				getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.toolbar_bg));
 
 
 //                getSupportActionBar().setCustomView(R.layout.abs_layout);
